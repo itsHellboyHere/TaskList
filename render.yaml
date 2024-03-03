@@ -1,9 +1,6 @@
 services:
-  - name: your-nodejs-server
-    type: web
-    buildCommand: npm install
-    startCommand: node server.js
-  - name: your-vite-react-app
+  - name: your-web-service
     type: web
     buildCommand: npm install && npm run build
-    startCommand: npm run serve
+    startCommand: node server.js
+   
